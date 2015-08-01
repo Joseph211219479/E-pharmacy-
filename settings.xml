@@ -1,0 +1,24 @@
+<settings>
+  <proxies>
+   <proxy>
+      <id>example-proxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>155.238.4.87</host>
+      <port>3128</port>
+      <username>learn17</username>
+      <password>dante</password>
+      <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
+    </proxy>
+	 <proxy>
+      <id>example-proxy</id>
+      <active>true</active>
+      <protocol>https</protocol>
+      <host>155.238.4.87</host>
+      <port>3128</port>
+      <username>learn17</username>
+      <password>dante</password>
+      <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
+    </proxy>
+  </proxies>
+  </settings>
